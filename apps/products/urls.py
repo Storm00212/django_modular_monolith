@@ -5,3 +5,5 @@ router = DefaultRouter()
 router.register(r'', ProductViewSet)
 
 urlpatterns = router.urls
+
+#d
