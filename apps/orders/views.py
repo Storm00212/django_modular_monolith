@@ -7,7 +7,7 @@ from .serializers import OrderSerializer
 
 class OrderViewSet(viewsets.ModelViewSet):
     """
-    Order CRUD ViewSet..
+    Order CRUD ViewSet.
     - GET /api/orders/ — list all orders
     - POST /api/orders/ — create a new order
     - GET /api/orders/{id}/ — retrieve an order
